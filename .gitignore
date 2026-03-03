@@ -1,0 +1,12 @@
+# Sphinx build output
+_build/
+docs/_build/
+
+# Python venv / cache
+.venv/
+__pycache__/
+*.pyc
+
+# OS / editor
+.DS_Store
+.vscode/
