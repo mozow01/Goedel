@@ -1,0 +1,12 @@
+/* Kódblokkok – kicsit kontrasztosabb, jobban olvasható */
+.rst-content pre.literal-block, .rst-content pre code, .rst-content .highlight pre {
+  border-radius: 10px;
+}
+
+/* Coq blokk: ha Pygments felismeri, a class gyakran language-coq / highlight-coq.
+   Ez nem ront el semmit akkor sem, ha más class jön. */
+.rst-content pre code.language-coq,
+.rst-content div.highlight-coq pre {
+  font-size: 0.95em;
+  line-height: 1.4;
+}
