@@ -30,7 +30,7 @@ html_css_files = ["custom.css"]
 html_context = {
     "display_github": True,
     "github_user": "mozow01",
-    "github_repo": "Goedel-2026",  # <-- ezt állítsd a *jegyzet* repód nevére
+    "github_repo": "Goedel",  
     "github_version": "main",
     "conf_py_path": "/docs/",
 }
